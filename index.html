@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Home</title>
+    <title>Задание 1</title>
     <style>
       li p {margin: 0}
     </style>
   </head>
 
   <body>
-  <a id=“list_of_links”></a> Список ссылок:
+  <a id="top"></a> Список ссылок:
     <ol>
 	  <li> <a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a> </li>
 	  <li> <a href="https://example.com">Абсолютная на главную сайта example.com в протоколе https</a> </li>
 	  <li> <a href="ftp://example.com/file.txt">Ссылка на файл на сервере FTP без авторизации</a> </li>
 	  <li> <a href="ftp://user:password@example.com/file.txt">Ссылка на файл на сервере FTP с авторизацией</a> </li>
-	  <li> <a href="https://example.com#about">Ссылка на фрагмент страницы некоторого сайта</a> </li>
-	  <li> <a href="home.html#list_of_links">Ссылка на фрагмент текущей страницы</a> </li>
-	  <li> <a href="https://example.com?parameter=value&color=red">Ссылка с двумя параметрами в URL</a> </li>
-	  <li> <a href="https://example.com/help" title="Помощь">Список ссылок основной навигации сайта с подписями title</a> </li>
+	  <li> <a href="http://example.com#about">Ссылка на фрагмент страницы некоторого сайта</a> </li>
+	  <li> <a href="top">Ссылка на фрагмент текущей страницы</a> </li>
+	  <li> <a href="http://example.com?parameter=value&color=black">Ссылка с двумя параметрами в URL</a> </li>
+	  <li> <a href="http://example.com/support" title="служба поддержки ">Список ссылок основной навигации сайта с подписями title</a> </li>
 	  <li> <a>Cсылка без href</a> </li>
 	  <li> <a href="">Ссылка с пустым href</a> </li>
 	  <li> <a href="http://example.com" rel="nofollow">Cсылка, по которой запрещен переход поисковикам</a> </li>
 	  <li> <!--noindex--><a href="http://example.com" rel="nofollow">Запрещенная для индексации поисковиками</a><!--/noindex--> </li>
-	  <li> <p>Я помню чудное мгновенье: Передо мной явилась ты, Как мимолетное <a href="https://ru.wiktionary.org/wiki/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5#Семантические_свойства_2"> виденье</a>, Как гений чистой красоты.</p>
-	  <li> <a href="https://ru.wikipedia.org/wiki/Minecraft"><img src="pictures/minecraft.png" width="50" height="50" alt="Ссылка-изображение"></a> </li>
+	  <li> <p>Сегодня мы узнали ,что  <a href="https://ru.wikipedia.org/wiki/%D0%AF%D0%BD%D1%82%D0%B0%D1%80%D1%8C"> янтарь </a> очень сложно найти.</p>
+	  <li> <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BA%D0%B0%D1%80%D1%82%D1%8B"><img src="pictures/kard.png" width="50" height="50" alt="Ссылка-изображение"></a> </li>
 	  <li>
-	    <p><img src="pictures/terraria.png" usemap="#map1" width="100" height="100" alt="Ссылка из прямоугольной области картинки"></p>
+	    <p><img src="pictures/domino.png" usemap="#map1" width="100" height="100" alt="Ссылка из прямоугольной области картинки"></p>
           <p><map name="map1">
-	      <area shape="rect" alt="1" coords="10,10,90,90" href="https://ru.wikipedia.org/wiki/Terraria">
+	      <area shape="rect" alt="1" coords="10,10,90,90" href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B8%D0%BD%D0%BE">
 	    </map></p>
 	  </li>
 	  <li>
-	    <p><img src="pictures/aoe2.jpg" usemap="#map2" width="100" height="100" alt="Ссылка из круглой области картинки">
+	    <p><img src="pictures/chess.jpg" usemap="#map2" width="100" height="100" alt="Ссылка из круглой области картинки">
 	      <p><map name="map2">
-	      <area shape="circle" alt="2" coords="50,50,30" href="https://ru.wikipedia.org/wiki/Age_of_Empires_II:_The_Age_of_Kings">
+	      <area shape="circle" alt="2" coords="50,50,30" href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B">
 	    </map></p>
 	  </li>
 	  <li> <a href="file.html">Относительная на страницу в текущем каталоге</a></li>
@@ -51,20 +51,20 @@
       <label>
         Введите имя:<br />
         <input name="field1"
-          value="Вася Пупкин" />
+          value="Александр Сергеевич" />
       </label><br />
 
       <label>
         Введите свой email:<br />
         <input name="field3"
-          value="vasya.pupkin@example.com"
+          value="pisatel17991837@mail.com"
           type="email" />
       </label><br />
 
       <label>
         Текстовое поле даты:<br />
         <input name="field3"
-          value="2021-09-10"
+          value="1799-06-06"
           type="date" />
       </label><br />
 
@@ -73,8 +73,8 @@
       <label><input type="radio" name="radio1" value="val2" />женский</label><br />
 		
 	  Количество конечностей:<br />
-      <label><input type="radio" name="radio2" value="val1" />1 нога, 2 руки</label>
-	  <label><input type="radio" name="radio2" value="val2" />4 ноги, 2^10 рук</label>
+      <label><input type="radio" name="radio2" value="val1" />2 ноги, 1 рука</label>
+	  <label><input type="radio" name="radio2" value="val2" />8 лап</label>
       <label><input type="radio" checked="checked" name="radio2" value="val3" />2 руки, 2 ноги</label><br />
 		
 	  Сверхспособности:<br />
@@ -83,6 +83,7 @@
           <option value="val1">Бессмертие</option>
           <option value="val2">Прохождение скозь стены</option>
           <option value="val3" selected="selected">Левитация</option>
+	  <option value="val4" selected="selected">Талант писателя</option>
         </select>
       </label><br />
 	  
