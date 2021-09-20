@@ -4,7 +4,7 @@
 
 body {
   clear:bouth;
-  background-color: #FFF8DC;
+  background-color: #E6CCFF;
   margin: 0;
 }
 
@@ -125,7 +125,7 @@ input[type="submit"]:hover {
 }
 
 footer {
-  background-color: #483D8B;
+  background-color: #0033CC;
   color: #FFF;
   padding: 10px 50px;
 }
