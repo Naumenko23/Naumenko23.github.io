@@ -105,24 +105,25 @@
       </table>
     </section>
     <section id="form">
-<h2>Форма</h2>
+<b>Форма</b>
       <form action="Name.txt"
       method="POST">
        <label>
         Имя:<br />
         <input name="field-name"
-          value="Дмитрий Дмитриевич" />
+          value="Александр Сергеевич" />
       </label><br />
 
        <label>
-        E-mail:<br />
+        Введите свой email:<br />
         <input name="field-email"
-          value="name@example.ru" />
+          value="pisatel17991837@mail.com"
+          type="email" />
       </label><br />
       <label>
-        Дата рождения:<br />
-        <input name="field-date"
-          value="1966-07-07"
+        Текстовое поле даты:<br />
+        <input name="field3"
+          value="1799-06-06"
           type="date" />
       </label><br />
 
@@ -132,35 +133,26 @@
         Женщина</label>
       <label><input type="radio" checked="checked"
         name="gender" value="male" />
-        Мужчина</label>
-       <label><input type="radio"
-        name="gender" value="doesn't matter" />
-        Не важно</label><br />
+        Мужчина</label><br />
 
         Количество конечностей:<br />
-        <label><input type="radio" name="number" value="0" />0</label>
-        <label><input type="radio" name="number" value="1" />1</label>
-        <label><input type="radio" name="number" value="2" />2</label>
-        <label><input type="radio" name="number" value="3" />3</label>
-        <label><input type="radio" checked="checked" name="number" value="4" />4</label>
-        <label><input type="radio" name="number" value="6+" />6+</label><br />
+        <label><input type="radio" name="radio2" value="val1" />2 ноги, 1 рука</label>
+	  <label><input type="radio" name="radio2" value="val2" />8 лап</label>
+      <label><input type="radio" checked="checked" name="radio2" value="val3" />2 руки, 2 ноги</label><br />
 
-       <label>
-        Сверхспособности:
-        <br />
-        <select name="name2[]"
+        Сверхспособности:<br />
+        <label><select name="field4"
           multiple="multiple">
-          <option value="Immortality">Бессмертие</option>
-          <option value="Levitation" selected="selected">Левитация</option>
-          <option value="Invisibility">Невидимость</option>
-          <option value="Underwater breathing" selected="selected">Подводное дыхание</option>
-          <option value="Telekinesis" >Телекинез</option>
+          <option value="val1">Бессмертие</option>
+          <option value="val2">Прохождение скозь стены</option>
+          <option value="val3" selected="selected">Левитация</option>
+	  <option value="val4" selected="selected">Талант писателя</option>
         </select>
       </label><br />
 
        <label>
         Биография:<br />
-        <textarea name="name3">Сам по себе интересный человек,могу поддержать в трудную минуту.Со мной скучно точно не будет.Человек-праздник так сказать.Могу резко залететь на крышу.И ,если будет нужно, покажу подводный мир с его обитателями...</textarea>
+        <textarea name="name3">...</textarea>
       </label><br />
 
        <br />
