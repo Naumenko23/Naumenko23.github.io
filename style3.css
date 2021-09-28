@@ -1,0 +1,140 @@
+* {
+  margin:  0;
+  padding: 0;
+
+}
+
+body{
+    font-family:Georgia, 'Times New Roman',Times, sans-serif;
+    background-color: #ffa07a;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #b0c4de;
+}
+.ldn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 70px;
+}
+.name{
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.box{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f5deb3;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 35px;
+}
+nav>a{
+    margin-top: 5px;
+    color: black;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#table{
+    order: 2; 
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color: red;
+}
+#links{
+    list-style-position: inside;
+}
+table{
+    border: 4px double black;
+}
+th{
+    font-size: 25px;
+    border: 1px solid green;
+}
+.odd{
+  background-color: #9370DB;
+}
+.even{
+  background-color: #DAA520
+}
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #4b6584;
+}
+
+label{
+    font-size: 30px;
+}
+
+@media all and (orientation: landscape), (min-device-width: 700px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 65px;
+        background-color: #b0c4de;
+    }
+    .ldn{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 960px;
+    }
+    .logo{
+        margin-top: 0;
+        height: 60px;
+    }
+    .name{
+        margin-top: 10px;
+    }
+    .box{
+        width: 960px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav>a{
+        font-size: medium;
+    }
+    #table{
+        order: 0; 
+    }
+    a{
+        font-size: medium;
+    }
+    footer{
+        height: 30px;
+    }
+    label{
+        font-size: medium;
+    }
+    
+}
+
+
