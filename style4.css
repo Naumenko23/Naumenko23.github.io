@@ -23,10 +23,10 @@ table {
   width: 100%;
 }
 
-#noteven_1, #noteven_2, #noteven_3{
+#odd{
     background: #4682B4;
 }
-#even_1,#even_2 {
+#even{
     background: rgb(96, 57, 189);
 }
 
