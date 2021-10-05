@@ -1,10 +1,10 @@
 #link_1, #link_2, #link_3{
-    background-color: rgb(63, 156, 71);
-    font-family: cursive;
+    background-color: rgb(255, 182, 193);
+    font-family: serif;
 }
 
 #bf_list, #content table, #superform{
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(238, 232, 170);
     font-family: cursive;
 }
 
@@ -16,7 +16,7 @@ header main, header aside{
 }
 
 table td, th{
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 table {
