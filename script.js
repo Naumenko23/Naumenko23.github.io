@@ -1,10 +1,10 @@
-function click1(){
+function script1(){
     let re = /^\d+$/;
-    let k = document.getElementById("kol");
-    let p = document.getElementById("price");
+    let ko = document.getElementById("field1");
+    let pr = document.getElementById("field2");
     let r = document.getElementById("result");
-    if(re.test(k.value) && re.test(p.value)){
-      r.innerHTML = parseInt(k.value) * parseInt(p.value);
+    if(re.test(ko.value) && re.test(pr.value)){
+      r.innerHTML = parseInt(ko.value) * parseInt(pr.value);
     } else{
       r.innerHTML = "Введите корректные данные";
     }
@@ -13,5 +13,5 @@ function click1(){
 
   window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
-    document.getElementById("but").addEventListener("click", click1);
+    document.getElementById("button1").addEventListener("click", script1);
   });
