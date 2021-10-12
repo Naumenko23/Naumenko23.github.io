@@ -6,7 +6,7 @@ function script1(){
     if(te.test(k1.value) && te.test(p1.value)){
       r.innerHTML = parseInt(k1.value) * parseInt(p1.value);
     } else{
-      r.innerHTML = "Введите корректные данные";
+      r.innerHTML = "Проверьте корректность данных и введите их снова";
     }
     return false;
   }
