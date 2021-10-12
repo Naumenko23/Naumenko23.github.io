@@ -3,7 +3,7 @@ function click1(){
     let k = document.getElementById("kol");
     let p = document.getElementById("price");
     let r = document.getElementById("result");
-    if(re.test(f1.value) && re.test(f2.value)){
+    if(re.test(k.value) && re.test(p.value)){
       r.innerHTML = parseInt(k.value) * parseInt(p.value);
     } else{
       r.innerHTML = "Введите корректные данные";
