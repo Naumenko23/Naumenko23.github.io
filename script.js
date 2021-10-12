@@ -13,5 +13,5 @@ function click1(){
 
   window.addEventListener('DOMContentLoaded', function (event) {
     console.log("DOM fully loaded and parsed");
-    document.getElementById("button1").addEventListener("click", click1);
+    document.getElementById("but").addEventListener("click", click1);
   });
