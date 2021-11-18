@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web№8</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+<div class="send" style="text-align: center;" >
+<button type="button" onclick=" forward" id="formButton" data-toggle="modal" data-target="#pop">Push</button>
+</div>
+<div class="modal fade formStyle" id="pop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title" id="exampleModalLabel">Form: </div>
+                </div>
+            <div class="modal-body">
+				<div class="row d-flex flex-row justify-content-center">
+				    <div class="col-sm-9">
+				        <div class="items d-flex flex-column">
+                    <form class="Form" action="https://formcarry.com/s/Fcf9hcQ3KX" accept-charset="UTF-8" >
+				    <div>
+					 <label for="name" class="col-form-label">Enter Name:</label>
+					 <input id="name" type="text" name="firstName">
+					</div>
+						<div>
+					 <label for="email" class="col-form-label">Enter E-mail:</label>
+					 <input id="email" type="email" name="email">
+					</div>
+						<div>
+					 <label for="anotherInput" class="col-form-label">Message:</label>
+					 <textarea id="anotherInput" class="form-control" name="anotherInput" ></textarea>
+					</div>
+						<div class="row d-flex flex-row align-items-center justify-content-around"></div>
+                        <div class="col-2 check">
+						<label for="check" class="col-form-label">Consent_to_processing_personal_data</label></div>
+						<input type="checkbox" class="form-control" id="check" required></div>
+                        <div class="col col-md-10">
+					    <div class="modal-footer">
+                        <button type="submit">Send</button>
+						<button type="button" id="closeButton" data-dismiss="modal" onclick="GoBack()" data-target="#pop">Back</button>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+		</div>
+	</div>
+</div>
+<script src="click.js"></script>
+</body>
+</html>
+
+
+
